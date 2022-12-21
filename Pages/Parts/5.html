@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html>
+	<!-- GNU GENERAL PUBLIC LICENSE
+	Version 3, 29 June 2007 -->
+<head>
+	<meta charset="utf-8">
+	<!-- <title>converted using eMachineShop</title> -->
+    <title>L W & D T</title>
+    <link rel="icon" href="../../imgs/شعار تعلم و اعمل و تطور.png">
+</head>
+
+<body>
+	<div id='canvas'></div>
+	<!-- <img style="position: fixed; bottom: 49px; left:10px; width: 340px; height: 49px; background-color: transparent;"
+		src="data:image/png;base64,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" /> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+	<script type="text/javascript">
+		var scene, renderer, camera, controls,
+			spotLight0, spotLight1, spotLight2, spotLightHelper0, spotLightHelper1, spotLightHelper2,
+			spotLight3, spotLight4, spotLight5, spotLightHelper3, spotLightHelper4, spotLightHelper5,
+			hemisphereLight0, hemisphereLight1, hemisLightHelper0, hemisLightHelper1,
+			dirLight0, dirLight1, dirLightHelper0, dirLightHelper1,
+			geom, materialPhong,
+			planeBottom,
+			rotateObject = true, animationSpeed = 0.0035,
+			cameraRotateSpeed = Math.PI * 0.002,
+			keypressed = false, keyboard = {},
+			isDragging = false, isZooming = false, isMoving = false,
+			mouseScalar = 0.5,
+			zoomScalar = 10.0,
+			keyboardMoveSpeed = 1.0,
+			previousMousePosition = {
+				x: 0,
+				y: 0
+			};
+
+		var aumenta = false, ripetizioni = 1;
+
+		var geomXYZ;
+
+		if (false) {
+			(function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); document.body.appendChild(stats.dom); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = 'http://mrdoob.github.io/stats.js/build/stats.min.js'; document.head.appendChild(script); })()
+		}
+
+		init();
+		mesh.scale.set(0.01, 0.01, 0.01);
+		animateIntro();
+
+		function init() {
+			scene = new THREE.Scene();
+			scene.background = new THREE.Color(0xababab);
+
+			renderer = new THREE.WebGLRenderer({ antialias: true });
+			renderer.setSize(window.innerWidth - 20, window.innerHeight - 20);
+			renderer.setPixelRatio(window.devicePixelRatio);
+			renderer.shadowMap.enabled = true;
+			renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+			document.body.appendChild(renderer.domElement);
+
+			createGeom();
+
+			geom.computeFaceNormals();
+			geom.computeBoundingBox();
+			geom.translate((geom.boundingBox.min.x + geom.boundingBox.max.x) / -2,
+				(geom.boundingBox.min.y + geom.boundingBox.max.y) / -2,
+				(geom.boundingBox.min.z + geom.boundingBox.max.z) / -2);
+			geom.computeBoundingBox();
+			geom.computeBoundingSphere();
+
+			materialPhong = new THREE.MeshPhongMaterial();
+			materialPhong.color.setHex(0x0d0d0d);
+			materialPhong.emissive.setHex(0x0f0f0f);
+			materialPhong.emissiveIntensity = 0.75;
+			materialPhong.specular.setHex(0x070707);
+			materialPhong.shininess = 30;
+			
+			/* InsertWireframeHere */
+			
+
+			mesh = new THREE.Mesh(geom);
+			mesh.material = materialPhong;
+
+			mesh.receiveShadow = true;
+			mesh.castShadow = true;
+
+			scene.add(mesh);
+
+			camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 10000);
+			camera.position.x = 0.1 * geom.boundingSphere.radius;
+			camera.position.y = 1.7 * geom.boundingSphere.radius;
+			camera.position.z = 3.0 * geom.boundingSphere.radius;
+			camera.lookAt(mesh.position);
+
+			var planeGeo = new THREE.PlaneBufferGeometry((100 * geom.boundingSphere.radius), (100 * geom.boundingSphere.radius));
+
+			planeBottom = new THREE.Mesh(planeGeo, new THREE.MeshPhongMaterial({ color: 0x383838 }))
+			planeBottom.position.y = -1.5 * geom.boundingSphere.radius;
+			planeBottom.rotateX(-Math.PI / 2);
+			planeBottom.receiveShadow = true;
+			scene.add(planeBottom);
+
+			spotLight0 = new THREE.SpotLight(0xffffff, 0.8);
+			spotLight0.position.x = 0.0;
+			spotLight0.position.y = 0.7071 * 5 * geom.boundingSphere.radius; // a 45° sul piano YZ
+			spotLight0.position.z = 0.7071 * 5 * geom.boundingSphere.radius;
+			spotLight0.angle = Math.sin(1.33 * geom.boundingSphere.radius / spotLight0.position.distanceTo(mesh.position));
+			spotLight0.penumbra = 0.25;
+			spotLight0.castShadow = true;
+			spotLight0.shadow.mapSize.width = 1024 * 4;
+			spotLight0.shadow.mapSize.height = 1024 * 4;
+			spotLight0.shadow.camera.near = 0.05 * geom.boundingSphere.radius;
+			spotLight0.shadow.camera.far = 50.0 * geom.boundingSphere.radius;
+			spotLight0.shadow.camera.fov = 3;
+			scene.add(spotLight0)
+
+			spotLight1 = new THREE.SpotLight(0xffffff, 0.6);
+			spotLight1.position.x = 0.5 * 5 * geom.boundingSphere.radius; // 45° sul piano ZX ruotato di 45° in XY 
+			spotLight1.position.y = 0.4 * 5 * geom.boundingSphere.radius; // 0.5
+			spotLight1.position.z = 0.7071 * 5 * geom.boundingSphere.radius;
+			spotLight1.angle = Math.sin(1.25 * geom.boundingSphere.radius / spotLight1.position.distanceTo(mesh.position));
+			spotLight1.penumbra = 0.25;
+			spotLight1.castShadow = false;
+			scene.add(spotLight1);
+
+			spotLight2 = new THREE.SpotLight(0xffffff, 0.6);
+			spotLight2.position.x = -0.5 * 5 * geom.boundingSphere.radius; // 45° sul piano XZ ruotato di 135° in XY
+			spotLight2.position.y = 0.4 * 5 * geom.boundingSphere.radius;
+			spotLight2.position.z = 0.7071 * 5 * geom.boundingSphere.radius;
+			spotLight2.angle = Math.sin(1.25 * geom.boundingSphere.radius / spotLight2.position.distanceTo(mesh.position));
+			spotLight2.penumbra = 0.25;
+			spotLight2.castShadow = false;
+			scene.add(spotLight2);
+
+			spotLight3 = new THREE.SpotLight(0xffffff, 0.8);
+			spotLight3.position.x = -2 * geom.boundingSphere.radius; // -135° alto Sx
+			spotLight3.position.y = 2 * geom.boundingSphere.radius; // 5
+			spotLight3.position.z = 10 * geom.boundingSphere.radius; // 5
+			spotLight3.angle = Math.sin(1.25 * geom.boundingSphere.radius / spotLight3.position.distanceTo(mesh.position));
+			spotLight3.penumbra = 0.25;
+			spotLight3.castShadow = false;
+			scene.add(spotLight3)
+
+			spotLight4 = new THREE.SpotLight(0xffffff, 0.8);
+			spotLight4.position.x = 2 * geom.boundingSphere.radius; // -45° alto Dx 
+			spotLight4.position.y = 2 * geom.boundingSphere.radius;
+			spotLight4.position.z = 10 * geom.boundingSphere.radius; // 5
+			spotLight4.angle = Math.sin(1.25 * geom.boundingSphere.radius / spotLight4.position.distanceTo(mesh.position));
+			spotLight4.penumbra = 0.25;
+			spotLight4.castShadow = false;
+			scene.add(spotLight4);
+
+			// emisferica 
+			hemisphereLight0 = new THREE.HemisphereLight(0xf0f0f0, 0x020202, 1.8);
+			hemisphereLight0.position.x = 0.0 * geom.boundingSphere.radius;
+			hemisphereLight0.position.y = 2.0 * geom.boundingSphere.radius;
+			hemisphereLight0.position.z = 2.0 * geom.boundingSphere.radius;
+			hemisphereLight0.castShadow = false;
+			scene.add(hemisphereLight0);
+
+			// direzionale 
+			dirLight0 = new THREE.DirectionalLight(0xddddddd, 1.5);
+			dirLight0.position.x = 0.25 * geom.boundingSphere.radius;
+			dirLight0.position.y = 1.55 * geom.boundingSphere.radius;
+			dirLight0.position.z = 2.25 * geom.boundingSphere.radius;
+			dirLight0.castShadow = false; // expensive!!!
+			scene.add(dirLight0);
+
+			/* add listeners */
+			/* window resize */
+			window.addEventListener('resize', onWindowResize, false);
+			/* Ruoto, sposto o zoommo la mesh alla pressione del tasto Dx e spostamento del mouse */
+			document.addEventListener('mousedown', mouseDownEvent, false);
+			document.addEventListener('mousemove', mouseMoveEvent, false);
+			document.addEventListener('mouseup', mouseUpEvent, false);
+			document.addEventListener('mousewheel', mouseWheelEvent, false);
+			/* tastiera */
+			document.addEventListener('keydown', keyboardDownEvent, false);
+			document.addEventListener('keyup', keyboardUpEvent, false);
+
+		};
+
+		/* animo la scena */
+		function animate() {
+
+			requestAnimationFrame(animate);
+			renderer.render(scene, camera);
+
+			// se è stato premuto almeno un tasto eseguo 
+			if (keypressed) {
+				/* modifico la scena in base alla pressione dei tasti */
+				if (keyboard[82]) { // R key
+					rotateObject = true;
+				}
+				if (keyboard[37]) { // left arrow key
+					// shift?
+					if (keyboard[16]) {
+						camera.position.x -= keyboardMoveSpeed; // sposto la camera a Sx 
+					} else
+						// control?
+						if (keyboard[17]) {
+							camera.position.z -= keyboardMoveSpeed; // avvicino la camera all'oggetto 
+						} else {
+							rotateObject = false;
+							mesh.rotation.y -= cameraRotateSpeed; // ruoto l'oggetto 
+						}
+				}
+				if (keyboard[38]) { // up arrow key
+					// shift?
+					if (keyboard[16]) {
+						camera.position.y += keyboardMoveSpeed; // sposto la camera in alto 
+					} else
+						// control?
+						if (keyboard[17]) {
+							camera.position.z -= keyboardMoveSpeed; // avvicino la camera all'oggetto 
+						} else {
+							mesh.rotation.x -= cameraRotateSpeed; // ruoto l'oggetto 
+						}
+				}
+				if (keyboard[39]) { // right arrow key
+					// shift?
+					if (keyboard[16]) {
+						camera.position.x += keyboardMoveSpeed; // sposto la camera a Dx 
+					} else
+						// control?
+						if (keyboard[17]) {
+							camera.position.z += keyboardMoveSpeed; // allontano la camera all'oggetto 
+						} else {
+							rotateObject = false;
+							mesh.rotation.y += cameraRotateSpeed; // ruoto l'oggetto 
+						}
+				}
+				if (keyboard[40]) { // down arrow key
+					// shift?
+					if (keyboard[16]) {
+						camera.position.y -= keyboardMoveSpeed; // sposto la camera in basso 
+					} else
+						// control?
+						if (keyboard[17]) {
+							camera.position.z += keyboardMoveSpeed; // allontano la camera all'oggetto 
+						} else {
+							mesh.rotation.x += cameraRotateSpeed; // ruoto l'oggetto 
+						}
+				}
+			}
+
+			// ruoto l'oggetto 
+			if (rotateObject) {
+				mesh.rotation.y += animationSpeed;
+			}
+		};
+
+		/* faccio apparire l'oggetto facendolo crescere :) */
+		function animateIntro() {
+
+			renderer.render(scene, camera);
+			// abilito un timeout
+			setTimeout(function () {
+				if (aumenta) {
+					var scala = Math.sin(ripetizioni * Math.PI / 180) * 1.221;
+					mesh.scale.set(scala, scala, scala);
+					mesh.rotation.y = (ripetizioni - 125) * Math.PI / 180;
+					requestAnimationFrame(animateIntro);
+					if (ripetizioni > 124) {
+						aumenta = false;
+					} else {
+						ripetizioni++;
+					}
+				} else {
+					mesh.scale.set(1.0, 1.0, 1.0);
+					requestAnimationFrame(animate);
+					return;
+				}
+			}, 1000 / 60);
+		}
+
+		/* on resize window */
+		function onWindowResize() {
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+			renderer.setSize(window.innerWidth - 20, window.innerHeight - 20);
+			renderer.setPixelRatio(window.devicePixelRatio);
+		}
+
+		/* on mouse click */
+		function mouseDownEvent(e) {
+			switch (e.button) {
+				case 0: // left button 
+					if (e.shiftKey) {
+						isMoving = true;
+						isDragging = false;
+						isZooming = false;
+					} else
+						if (e.ctrlKey) {
+							isMoving = false;
+							isDragging = false;
+							isZooming = true;
+						} else {
+							isMoving = false;
+							isDragging = true;
+							isZooming = false;
+							rotateObject = false;
+						}
+					break;
+
+				case 1: // wheel button 
+					isDragging = false;
+					isZooming = true;
+					break;
+
+				case 2: // right button
+					isDragging = false;
+					break;
+			}
+		}
+
+		/* on mouse movement */
+		function mouseMoveEvent(e) {
+			var deltaMove = {
+				x: e.offsetX - previousMousePosition.x,
+				y: e.offsetY - previousMousePosition.y
+			};
+
+			if (isDragging) {
+				var deltaRotationQuaternion = new THREE.Quaternion();
+				deltaRotationQuaternion.setFromEuler(
+					new THREE.Euler(
+						(deltaMove.y * (Math.PI / 180) * mouseScalar),
+						(deltaMove.x * (Math.PI / 180) * mouseScalar),
+						0,
+						'XYZ'
+					)
+				);
+				mesh.quaternion.multiplyQuaternions(deltaRotationQuaternion, mesh.quaternion);
+			}
+
+			if (isZooming) {
+				camera.position.z += deltaMove.y * mouseScalar;
+			}
+
+			if (isMoving) {
+				camera.position.x -= deltaMove.x * mouseScalar * 0.5;
+				camera.position.y += deltaMove.y * mouseScalar * 0.5;
+			}
+
+			previousMousePosition = {
+				x: e.offsetX,
+				y: e.offsetY
+			};
+		}
+
+		/* on release mouse button */
+		function mouseUpEvent(e) {
+			isDragging = false;
+			isZooming = false;
+			isMoving = false;
+		}
+
+		/* on turning the wheel */
+		function mouseWheelEvent(e) {
+			var vector = new THREE.Vector3();
+			var dir = new THREE.Vector3();
+			var position = camera.position;
+
+			camera.updateMatrixWorld(true);
+			vector.set((e.clientX / window.innerWidth) * 2 - 1, -(e.clientY / window.innerHeight) * 2 + 1, 0.5);
+			vector.unproject(camera);
+
+			var dir = vector.sub(position).normalize();
+
+			if (e.wheelDelta > 0) { // rotello in avanti
+				camera.position.x += dir.x * zoomScalar;
+				camera.position.y += dir.y * zoomScalar;
+				camera.position.z += dir.z * zoomScalar;
+			}
+			if (e.wheelDelta < 0) { // rotello in dietro
+				camera.position.x -= dir.x * zoomScalar;
+				camera.position.y -= dir.y * zoomScalar;
+				camera.position.z -= dir.z * zoomScalar;
+			}
+		}
+
+		/* on pressing a keyboard  key */
+		function keyboardDownEvent(e) {
+			keyboard[e.keyCode] = true;
+			keypressed = true;
+		}
+		/* on release a keyboard key */
+		function keyboardUpEvent(e) {
+			keyboard[e.keyCode] = false;
+			keypressed = false;
+		}
+
+		/* create geometry */
+		function createGeom() {
+
+					geom = new THREE.Geometry();
+			geom.vertices.push(new THREE.Vector3(-43.180954,-3.728331,0.000000));
+			geom.vertices.push(new THREE.Vector3(-43.180954,-3.728331,7.167297));
+			geom.vertices.push(new THREE.Vector3(-43.180954,5.799562,0.000000));
+			geom.vertices.push(new THREE.Vector3(-43.180954,5.799562,7.167297));
+			geom.vertices.push(new THREE.Vector3(-41.145149,2.979015,0.000000));
+			geom.vertices.push(new THREE.Vector3(-41.115990,7.380182,0.000000));
+			geom.vertices.push(new THREE.Vector3(-41.115990,7.380182,7.167297));
+			geom.vertices.push(new THREE.Vector3(-41.098602,2.506338,0.000000));
+			geom.vertices.push(new THREE.Vector3(-41.098602,3.451689,0.000000));
+			geom.vertices.push(new THREE.Vector3(-41.073334,2.979015,1.544281));
+			geom.vertices.push(new THREE.Vector3(-41.022232,2.506338,1.544281));
+			geom.vertices.push(new THREE.Vector3(-41.022232,3.451689,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.960724,2.051826,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.960724,3.906202,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.870895,2.051826,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.870895,3.906202,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.736832,4.325083,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.736824,1.632946,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.625130,1.632946,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.625130,4.325083,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.509354,2.979015,3.712921));
+			geom.vertices.push(new THREE.Vector3(-40.456078,2.506338,3.699921));
+			geom.vertices.push(new THREE.Vector3(-40.456078,3.451689,3.699921));
+			geom.vertices.push(new THREE.Vector3(-40.435516,4.692236,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.435509,1.265793,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.298302,2.051826,3.661438));
+			geom.vertices.push(new THREE.Vector3(-40.298294,3.906202,3.661438));
+			geom.vertices.push(new THREE.Vector3(-40.294395,4.692236,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.294388,1.265793,1.544281));
+			geom.vertices.push(new THREE.Vector3(-40.068367,4.993547,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.068359,0.964479,0.000000));
+			geom.vertices.push(new THREE.Vector3(-40.042084,1.632946,3.598969));
+			geom.vertices.push(new THREE.Vector3(-40.042084,4.325083,3.598969));
+			geom.vertices.push(new THREE.Vector3(-39.891388,0.964479,1.544281));
+			geom.vertices.push(new THREE.Vector3(-39.891388,4.993547,1.544281));
+			geom.vertices.push(new THREE.Vector3(-39.697281,4.692236,3.514893));
+			geom.vertices.push(new THREE.Vector3(-39.697273,1.265793,3.514893));
+			geom.vertices.push(new THREE.Vector3(-39.649483,5.217447,0.000000));
+			geom.vertices.push(new THREE.Vector3(-39.649475,0.740585,0.000000));
+			geom.vertices.push(new THREE.Vector3(-39.431595,0.740585,1.544281));
+			geom.vertices.push(new THREE.Vector3(-39.431595,5.217447,1.544281));
+			geom.vertices.push(new THREE.Vector3(-39.384354,2.979015,7.167297));
+			geom.vertices.push(new THREE.Vector3(-39.277130,4.993547,3.412415));
+			geom.vertices.push(new THREE.Vector3(-39.277122,0.964479,3.412415));
+			geom.vertices.push(new THREE.Vector3(-39.257271,2.506338,7.167297));
+			geom.vertices.push(new THREE.Vector3(-39.257271,3.451689,7.167297));
+			geom.vertices.push(new THREE.Vector3(-39.194969,0.602711,0.000000));
+			geom.vertices.push(new THREE.Vector3(-39.194969,5.355322,0.000000));
+			geom.vertices.push(new THREE.Vector3(-38.932701,0.602711,1.544281));
+			geom.vertices.push(new THREE.Vector3(-38.932701,5.355322,1.544281));
+			geom.vertices.push(new THREE.Vector3(-38.880943,2.051826,7.167297));
+			geom.vertices.push(new THREE.Vector3(-38.880928,3.906202,7.167297));
+			geom.vertices.push(new THREE.Vector3(-38.797783,5.217447,3.295532));
+			geom.vertices.push(new THREE.Vector3(-38.797775,0.740585,3.295532));
+			geom.vertices.push(new THREE.Vector3(-38.722298,5.401876,0.000000));
+			geom.vertices.push(new THREE.Vector3(-38.722290,0.556158,0.000000));
+			geom.vertices.push(new THREE.Vector3(-38.413872,5.401876,1.544281));
+			geom.vertices.push(new THREE.Vector3(-38.413864,0.556158,1.544281));
+			geom.vertices.push(new THREE.Vector3(-38.277657,0.602711,3.168671));
+			geom.vertices.push(new THREE.Vector3(-38.277657,5.355322,3.168671));
+			geom.vertices.push(new THREE.Vector3(-38.269791,1.632946,7.167297));
+			geom.vertices.push(new THREE.Vector3(-38.269791,4.325083,7.167297));
+			geom.vertices.push(new THREE.Vector3(-38.249619,0.602711,0.000000));
+			geom.vertices.push(new THREE.Vector3(-38.249619,5.355322,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.895027,0.602711,1.544281));
+			geom.vertices.push(new THREE.Vector3(-37.895027,5.355322,1.544281));
+			geom.vertices.push(new THREE.Vector3(-37.795105,0.740587,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.795105,5.217447,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.736755,5.401876,3.036774));
+			geom.vertices.push(new THREE.Vector3(-37.736748,0.556158,3.036774));
+			geom.vertices.push(new THREE.Vector3(-37.447334,4.692236,7.167297));
+			geom.vertices.push(new THREE.Vector3(-37.447319,1.265793,7.167297));
+			geom.vertices.push(new THREE.Vector3(-37.396133,0.740587,1.544281));
+			geom.vertices.push(new THREE.Vector3(-37.396133,5.217447,1.544281));
+			geom.vertices.push(new THREE.Vector3(-37.376221,0.964481,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.376221,4.993551,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.195847,0.602711,2.904877));
+			geom.vertices.push(new THREE.Vector3(-37.195847,5.355322,2.904877));
+			geom.vertices.push(new THREE.Vector3(-37.009071,1.265795,0.000000));
+			geom.vertices.push(new THREE.Vector3(-37.009071,4.692236,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.936348,0.964481,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.936348,4.993551,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.707756,1.632948,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.707756,4.325087,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.675720,0.740587,2.778015));
+			geom.vertices.push(new THREE.Vector3(-36.675720,5.217447,2.778015));
+			geom.vertices.push(new THREE.Vector3(-36.533340,1.265795,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.533340,4.692236,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.483864,2.051828,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.483864,3.906202,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.445152,4.993547,7.167297));
+			geom.vertices.push(new THREE.Vector3(-36.445145,0.964479,7.167297));
+			geom.vertices.push(new THREE.Vector3(-36.345985,2.506342,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.345985,3.451693,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.299431,2.979017,0.000000));
+			geom.vertices.push(new THREE.Vector3(-36.202599,1.632948,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.202599,4.325087,1.544281));
+			geom.vertices.push(new THREE.Vector3(-36.196373,0.964481,2.661133));
+			geom.vertices.push(new THREE.Vector3(-36.196373,4.993551,2.661133));
+			geom.vertices.push(new THREE.Vector3(-35.956841,2.051828,1.544281));
+			geom.vertices.push(new THREE.Vector3(-35.956841,3.906202,1.544281));
+			geom.vertices.push(new THREE.Vector3(-35.805504,2.506342,1.544281));
+			geom.vertices.push(new THREE.Vector3(-35.805504,3.451693,1.544281));
+			geom.vertices.push(new THREE.Vector3(-35.776222,1.265795,2.558655));
+			geom.vertices.push(new THREE.Vector3(-35.776222,4.692236,2.558655));
+			geom.vertices.push(new THREE.Vector3(-35.754402,2.979017,1.544281));
+			geom.vertices.push(new THREE.Vector3(-35.431419,1.632948,2.474579));
+			geom.vertices.push(new THREE.Vector3(-35.431412,4.325087,2.474579));
+			geom.vertices.push(new THREE.Vector3(-35.301781,5.217447,7.167297));
+			geom.vertices.push(new THREE.Vector3(-35.301773,0.740585,7.167297));
+			geom.vertices.push(new THREE.Vector3(-35.175201,2.051828,2.412109));
+			geom.vertices.push(new THREE.Vector3(-35.175201,3.906202,2.412109));
+			geom.vertices.push(new THREE.Vector3(-35.017426,2.506342,2.373627));
+			geom.vertices.push(new THREE.Vector3(-35.017426,3.451693,2.373627));
+			geom.vertices.push(new THREE.Vector3(-34.964149,2.979017,2.360626));
+			geom.vertices.push(new THREE.Vector3(-34.061165,5.355322,7.167297));
+			geom.vertices.push(new THREE.Vector3(-34.061142,0.602711,7.167297));
+			geom.vertices.push(new THREE.Vector3(-32.770943,5.401876,7.167297));
+			geom.vertices.push(new THREE.Vector3(-32.770935,0.556158,7.167297));
+			geom.vertices.push(new THREE.Vector3(-31.480726,5.355322,7.167297));
+			geom.vertices.push(new THREE.Vector3(-31.480715,0.602711,7.167297));
+			geom.vertices.push(new THREE.Vector3(-30.240099,0.740589,7.167297));
+			geom.vertices.push(new THREE.Vector3(-30.240099,5.217447,7.167297));
+			geom.vertices.push(new THREE.Vector3(-29.096731,0.964483,7.167297));
+			geom.vertices.push(new THREE.Vector3(-29.096731,4.993551,7.167297));
+			geom.vertices.push(new THREE.Vector3(-28.094549,1.265797,7.167297));
+			geom.vertices.push(new THREE.Vector3(-28.094549,4.692240,7.167297));
+			geom.vertices.push(new THREE.Vector3(-27.272093,1.632948,7.167297));
+			geom.vertices.push(new THREE.Vector3(-27.272078,4.325087,7.167297));
+			geom.vertices.push(new THREE.Vector3(-26.660936,2.051830,7.167297));
+			geom.vertices.push(new THREE.Vector3(-26.660936,3.906206,7.167297));
+			geom.vertices.push(new THREE.Vector3(-26.284613,2.506342,7.167297));
+			geom.vertices.push(new THREE.Vector3(-26.284613,3.451693,7.167297));
+			geom.vertices.push(new THREE.Vector3(-26.157522,2.979019,7.167297));
+			geom.vertices.push(new THREE.Vector3(-9.496658,-7.145052,0.000000));
+			geom.vertices.push(new THREE.Vector3(-9.496658,-7.145052,7.167297));
+			geom.vertices.push(new THREE.Vector3(-9.496658,-2.644699,0.000000));
+			geom.vertices.push(new THREE.Vector3(-9.496658,-2.644699,7.167297));
+			geom.vertices.push(new THREE.Vector3(-9.496658,7.380182,0.000000));
+			geom.vertices.push(new THREE.Vector3(-9.496658,7.380182,7.167297));
+			geom.vertices.push(new THREE.Vector3(-5.765259,7.380182,3.599945));
+			geom.vertices.push(new THREE.Vector3(-5.711039,7.380182,3.049438));
+			geom.vertices.push(new THREE.Vector3(-5.711039,7.380182,4.150452));
+			geom.vertices.push(new THREE.Vector3(-5.550461,7.380182,2.520081));
+			geom.vertices.push(new THREE.Vector3(-5.550461,7.380182,4.679810));
+			geom.vertices.push(new THREE.Vector3(-5.289698,7.380182,2.032227));
+			geom.vertices.push(new THREE.Vector3(-5.289698,7.380182,5.167664));
+			geom.vertices.push(new THREE.Vector3(-4.938768,7.380182,1.604614));
+			geom.vertices.push(new THREE.Vector3(-4.938768,7.380182,5.595276));
+			geom.vertices.push(new THREE.Vector3(-4.511162,7.380182,1.253693));
+			geom.vertices.push(new THREE.Vector3(-4.511160,7.380182,5.946198));
+			geom.vertices.push(new THREE.Vector3(-4.408827,-2.646030,3.599945));
+			geom.vertices.push(new THREE.Vector3(-4.408827,6.019617,3.599945));
+			geom.vertices.push(new THREE.Vector3(-4.380671,-2.646030,3.314056));
+			geom.vertices.push(new THREE.Vector3(-4.380671,-2.646030,3.885834));
+			geom.vertices.push(new THREE.Vector3(-4.380671,6.019617,3.314056));
+			geom.vertices.push(new THREE.Vector3(-4.380671,6.019617,3.885834));
+			geom.vertices.push(new THREE.Vector3(-4.297281,-2.646030,3.039154));
+			geom.vertices.push(new THREE.Vector3(-4.297281,-2.646030,4.160736));
+			geom.vertices.push(new THREE.Vector3(-4.297281,6.019617,3.039154));
+			geom.vertices.push(new THREE.Vector3(-4.297281,6.019617,4.160736));
+			geom.vertices.push(new THREE.Vector3(-4.161867,-2.646030,2.785828));
+			geom.vertices.push(new THREE.Vector3(-4.161867,-2.646030,4.414062));
+			geom.vertices.push(new THREE.Vector3(-4.161867,6.019617,2.785828));
+			geom.vertices.push(new THREE.Vector3(-4.161867,6.019617,4.414062));
+			geom.vertices.push(new THREE.Vector3(-4.023308,7.380182,0.992920));
+			geom.vertices.push(new THREE.Vector3(-4.023308,7.380182,6.206970));
+			geom.vertices.push(new THREE.Vector3(-3.979628,-2.646030,2.563751));
+			geom.vertices.push(new THREE.Vector3(-3.979628,-2.646030,4.636139));
+			geom.vertices.push(new THREE.Vector3(-3.979628,6.019617,2.563751));
+			geom.vertices.push(new THREE.Vector3(-3.979628,6.019617,4.636139));
+			geom.vertices.push(new THREE.Vector3(-3.757568,-2.646030,2.381531));
+			geom.vertices.push(new THREE.Vector3(-3.757568,-2.646030,4.818359));
+			geom.vertices.push(new THREE.Vector3(-3.757568,6.019617,2.381531));
+			geom.vertices.push(new THREE.Vector3(-3.757568,6.019617,4.818359));
+			geom.vertices.push(new THREE.Vector3(-3.504225,-2.646030,2.246124));
+			geom.vertices.push(new THREE.Vector3(-3.504225,6.019617,2.246124));
+			geom.vertices.push(new THREE.Vector3(-3.504223,-2.646030,4.953766));
+			geom.vertices.push(new THREE.Vector3(-3.504223,6.019617,4.953766));
+			geom.vertices.push(new THREE.Vector3(-3.493956,7.380182,0.832367));
+			geom.vertices.push(new THREE.Vector3(-3.493954,7.380182,6.367523));
+			geom.vertices.push(new THREE.Vector3(-3.229328,-2.646030,2.162720));
+			geom.vertices.push(new THREE.Vector3(-3.229328,-2.646030,5.037170));
+			geom.vertices.push(new THREE.Vector3(-3.229328,6.019617,2.162720));
+			geom.vertices.push(new THREE.Vector3(-3.229328,6.019617,5.037170));
+			geom.vertices.push(new THREE.Vector3(-2.943447,-2.646030,2.134552));
+			geom.vertices.push(new THREE.Vector3(-2.943447,-2.646030,5.065338));
+			geom.vertices.push(new THREE.Vector3(-2.943447,6.019617,2.134552));
+			geom.vertices.push(new THREE.Vector3(-2.943447,6.019617,5.065338));
+			geom.vertices.push(new THREE.Vector3(-2.943447,7.380182,0.778137));
+			geom.vertices.push(new THREE.Vector3(-2.943445,7.380182,6.421753));
+			geom.vertices.push(new THREE.Vector3(-2.657568,-2.646030,2.162720));
+			geom.vertices.push(new THREE.Vector3(-2.657568,6.019617,2.162720));
+			geom.vertices.push(new THREE.Vector3(-2.657564,-2.646030,5.037170));
+			geom.vertices.push(new THREE.Vector3(-2.657564,6.019617,5.037170));
+			geom.vertices.push(new THREE.Vector3(-2.392942,7.380182,0.832367));
+			geom.vertices.push(new THREE.Vector3(-2.392937,7.380182,6.367523));
+			geom.vertices.push(new THREE.Vector3(-2.382671,-2.646030,2.246124));
+			geom.vertices.push(new THREE.Vector3(-2.382671,6.019617,2.246124));
+			geom.vertices.push(new THREE.Vector3(-2.382669,-2.646030,4.953766));
+			geom.vertices.push(new THREE.Vector3(-2.382669,6.019617,4.953766));
+			geom.vertices.push(new THREE.Vector3(-2.129328,-2.646030,2.381531));
+			geom.vertices.push(new THREE.Vector3(-2.129328,6.019617,2.381531));
+			geom.vertices.push(new THREE.Vector3(-2.129324,-2.646030,4.818359));
+			geom.vertices.push(new THREE.Vector3(-2.129324,6.019617,4.818359));
+			geom.vertices.push(new THREE.Vector3(-1.907269,-2.646030,2.563751));
+			geom.vertices.push(new THREE.Vector3(-1.907269,6.019617,2.563751));
+			geom.vertices.push(new THREE.Vector3(-1.907267,-2.646030,4.636139));
+			geom.vertices.push(new THREE.Vector3(-1.907267,6.019617,4.636139));
+			geom.vertices.push(new THREE.Vector3(-1.863590,7.380182,0.992920));
+			geom.vertices.push(new THREE.Vector3(-1.863586,7.380182,6.206970));
+			geom.vertices.push(new THREE.Vector3(-1.725029,-2.646030,2.785828));
+			geom.vertices.push(new THREE.Vector3(-1.725029,6.019617,2.785828));
+			geom.vertices.push(new THREE.Vector3(-1.725027,-2.646030,4.414062));
+			geom.vertices.push(new THREE.Vector3(-1.725027,6.019617,4.414062));
+			geom.vertices.push(new THREE.Vector3(-1.589613,-2.646030,3.039154));
+			geom.vertices.push(new THREE.Vector3(-1.589613,6.019617,3.039154));
+			geom.vertices.push(new THREE.Vector3(-1.589611,-2.646030,4.160736));
+			geom.vertices.push(new THREE.Vector3(-1.589611,6.019617,4.160736));
+			geom.vertices.push(new THREE.Vector3(-1.506224,-2.646030,3.314056));
+			geom.vertices.push(new THREE.Vector3(-1.506224,-2.646030,3.885834));
+			geom.vertices.push(new THREE.Vector3(-1.506224,6.019617,3.314056));
+			geom.vertices.push(new THREE.Vector3(-1.506224,6.019617,3.885834));
+			geom.vertices.push(new THREE.Vector3(-1.478067,-2.646030,3.599945));
+			geom.vertices.push(new THREE.Vector3(-1.478067,6.019617,3.599945));
+			geom.vertices.push(new THREE.Vector3(-1.375736,7.380182,1.253693));
+			geom.vertices.push(new THREE.Vector3(-1.375731,7.380182,5.946198));
+			geom.vertices.push(new THREE.Vector3(-0.948128,7.380182,1.604614));
+			geom.vertices.push(new THREE.Vector3(-0.948124,7.380182,5.595276));
+			geom.vertices.push(new THREE.Vector3(-0.597198,7.380182,2.032227));
+			geom.vertices.push(new THREE.Vector3(-0.597197,7.380182,5.167664));
+			geom.vertices.push(new THREE.Vector3(-0.336433,7.380182,2.520081));
+			geom.vertices.push(new THREE.Vector3(-0.336433,7.380182,4.679810));
+			geom.vertices.push(new THREE.Vector3(-0.175858,7.380182,3.049438));
+			geom.vertices.push(new THREE.Vector3(-0.175856,7.380182,4.150452));
+			geom.vertices.push(new THREE.Vector3(-0.121637,7.380182,3.599945));
+			geom.vertices.push(new THREE.Vector3(3.629051,-7.145052,0.000000));
+			geom.vertices.push(new THREE.Vector3(3.629051,-7.145052,7.167297));
+			geom.vertices.push(new THREE.Vector3(3.629051,-2.644699,0.000000));
+			geom.vertices.push(new THREE.Vector3(3.629051,-2.644699,7.167297));
+			geom.vertices.push(new THREE.Vector3(3.629051,7.380182,0.000000));
+			geom.vertices.push(new THREE.Vector3(3.629051,7.380182,7.167297));
+			geom.vertices.push(new THREE.Vector3(26.148066,0.370886,7.167297));
+			geom.vertices.push(new THREE.Vector3(26.275150,-0.101791,7.167297));
+			geom.vertices.push(new THREE.Vector3(26.275150,0.843561,7.167297));
+			geom.vertices.push(new THREE.Vector3(26.651480,-0.556303,7.167297));
+			geom.vertices.push(new THREE.Vector3(26.651480,1.298075,7.167297));
+			geom.vertices.push(new THREE.Vector3(27.262623,-0.975183,7.167297));
+			geom.vertices.push(new THREE.Vector3(27.262632,1.716955,7.167297));
+			geom.vertices.push(new THREE.Vector3(28.085087,-1.342337,7.167297));
+			geom.vertices.push(new THREE.Vector3(28.085087,2.084108,7.167297));
+			geom.vertices.push(new THREE.Vector3(29.087273,-1.643650,7.167297));
+			geom.vertices.push(new THREE.Vector3(29.087273,2.385422,7.167297));
+			geom.vertices.push(new THREE.Vector3(30.230642,-1.867546,7.167297));
+			geom.vertices.push(new THREE.Vector3(30.230642,2.609316,7.167297));
+			geom.vertices.push(new THREE.Vector3(31.471256,2.747192,7.167297));
+			geom.vertices.push(new THREE.Vector3(31.471266,-2.005421,7.167297));
+			geom.vertices.push(new THREE.Vector3(32.761475,2.793745,7.167297));
+			geom.vertices.push(new THREE.Vector3(32.761482,-2.051975,7.167297));
+			geom.vertices.push(new THREE.Vector3(34.051682,2.747192,7.167297));
+			geom.vertices.push(new THREE.Vector3(34.051704,-2.005421,7.167297));
+			geom.vertices.push(new THREE.Vector3(34.538296,7.380182,0.000000));
+			geom.vertices.push(new THREE.Vector3(34.538296,7.380182,7.167297));
+			geom.vertices.push(new THREE.Vector3(34.615219,0.705231,2.360626));
+			geom.vertices.push(new THREE.Vector3(34.672470,0.232553,2.373627));
+			geom.vertices.push(new THREE.Vector3(34.672470,1.177906,2.373627));
+			geom.vertices.push(new THREE.Vector3(34.842026,-0.221958,2.412109));
+			geom.vertices.push(new THREE.Vector3(34.842026,1.632420,2.412109));
+			geom.vertices.push(new THREE.Vector3(35.117355,-0.640841,2.474579));
+			geom.vertices.push(new THREE.Vector3(35.117363,2.051300,2.474579));
+			geom.vertices.push(new THREE.Vector3(35.292313,2.609318,7.167297));
+			geom.vertices.push(new THREE.Vector3(35.292316,-1.867546,7.167297));
+			geom.vertices.push(new THREE.Vector3(35.487904,-1.007992,2.558655));
+			geom.vertices.push(new THREE.Vector3(35.487904,2.418453,2.558655));
+			geom.vertices.push(new THREE.Vector3(35.552277,0.302507,1.544281));
+			geom.vertices.push(new THREE.Vector3(35.606144,-0.170170,1.544281));
+			geom.vertices.push(new THREE.Vector3(35.606144,0.775183,1.544281));
+			geom.vertices.push(new THREE.Vector3(35.765678,-0.624681,1.544281));
+			geom.vertices.push(new THREE.Vector3(35.765678,1.229696,1.544281));
+			geom.vertices.push(new THREE.Vector3(35.939407,-1.309305,2.661133));
+			geom.vertices.push(new THREE.Vector3(35.939407,2.719767,2.661133));
+			geom.vertices.push(new THREE.Vector3(36.024742,-1.043562,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.024742,1.648577,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.289970,-0.216120,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.336525,-0.688797,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.336525,0.256556,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.373383,-1.410715,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.373383,2.015730,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.435680,2.385424,7.167297));
+			geom.vertices.push(new THREE.Vector3(36.435688,-1.643648,7.167297));
+			geom.vertices.push(new THREE.Vector3(36.454529,-1.533201,2.778015));
+			geom.vertices.push(new THREE.Vector3(36.454529,2.943661,2.778015));
+			geom.vertices.push(new THREE.Vector3(36.474403,-1.143309,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.474403,0.711069,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.698296,-1.562189,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.698296,1.129950,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.798206,-1.712029,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.798206,2.317043,1.544281));
+			geom.vertices.push(new THREE.Vector3(36.999611,-1.929342,0.000000));
+			geom.vertices.push(new THREE.Vector3(36.999611,1.497103,0.000000));
+			geom.vertices.push(new THREE.Vector3(37.013466,-1.671076,2.904877));
+			geom.vertices.push(new THREE.Vector3(37.013466,3.081537,2.904877));
+			geom.vertices.push(new THREE.Vector3(37.282890,-1.935925,1.544281));
+			geom.vertices.push(new THREE.Vector3(37.282890,2.540937,1.544281));
+			geom.vertices.push(new THREE.Vector3(37.366760,-2.230656,0.000000));
+			geom.vertices.push(new THREE.Vector3(37.366760,1.798416,0.000000));
+			geom.vertices.push(new THREE.Vector3(37.437859,2.084110,7.167297));
+			geom.vertices.push(new THREE.Vector3(37.437874,-1.342335,7.167297));
+			geom.vertices.push(new THREE.Vector3(37.594738,3.128090,3.036774));
+			geom.vertices.push(new THREE.Vector3(37.594746,-1.717628,3.036774));
+			geom.vertices.push(new THREE.Vector3(37.785645,-2.454552,0.000000));
+			geom.vertices.push(new THREE.Vector3(37.785645,2.022310,0.000000));
+			geom.vertices.push(new THREE.Vector3(37.808792,-2.073799,1.544281));
+			geom.vertices.push(new THREE.Vector3(37.808792,2.678814,1.544281));
+			geom.vertices.push(new THREE.Vector3(38.176014,3.081537,3.168671));
+			geom.vertices.push(new THREE.Vector3(38.176018,-1.671076,3.168671));
+			geom.vertices.push(new THREE.Vector3(38.240154,-2.592426,0.000000));
+			geom.vertices.push(new THREE.Vector3(38.240154,2.160187,0.000000));
+			geom.vertices.push(new THREE.Vector3(38.260326,-0.975182,7.167297));
+			geom.vertices.push(new THREE.Vector3(38.260326,1.716957,7.167297));
+			geom.vertices.push(new THREE.Vector3(38.355717,2.725367,1.544281));
+			geom.vertices.push(new THREE.Vector3(38.355721,-2.120352,1.544281));
+			geom.vertices.push(new THREE.Vector3(38.712830,2.206739,0.000000));
+			geom.vertices.push(new THREE.Vector3(38.712833,-2.638979,0.000000));
+			geom.vertices.push(new THREE.Vector3(38.734951,2.943663,3.295532));
+			geom.vertices.push(new THREE.Vector3(38.734955,-1.533201,3.295532));
+			geom.vertices.push(new THREE.Vector3(38.871468,-0.556301,7.167297));
+			geom.vertices.push(new THREE.Vector3(38.871479,1.298077,7.167297));
+			geom.vertices.push(new THREE.Vector3(38.902634,2.678814,1.544281));
+			geom.vertices.push(new THREE.Vector3(38.902641,-2.073799,1.544281));
+			geom.vertices.push(new THREE.Vector3(39.185501,2.160187,0.000000));
+			geom.vertices.push(new THREE.Vector3(39.185509,-2.592426,0.000000));
+			geom.vertices.push(new THREE.Vector3(39.247810,-0.101788,7.167297));
+			geom.vertices.push(new THREE.Vector3(39.247810,0.843565,7.167297));
+			geom.vertices.push(new THREE.Vector3(39.250069,2.719769,3.412415));
+			geom.vertices.push(new THREE.Vector3(39.250076,-1.309303,3.412415));
+			geom.vertices.push(new THREE.Vector3(39.374893,0.370888,7.167297));
+			geom.vertices.push(new THREE.Vector3(39.414780,4.828325,0.000000));
+			geom.vertices.push(new THREE.Vector3(39.414780,4.828325,7.167297));
+			geom.vertices.push(new THREE.Vector3(39.428543,-1.935925,1.544281));
+			geom.vertices.push(new THREE.Vector3(39.428543,2.540939,1.544281));
+			geom.vertices.push(new THREE.Vector3(39.640015,2.022312,0.000000));
+			geom.vertices.push(new THREE.Vector3(39.640018,-2.454552,0.000000));
+			geom.vertices.push(new THREE.Vector3(39.701576,2.418455,3.514893));
+			geom.vertices.push(new THREE.Vector3(39.701584,-1.007990,3.514893));
+			geom.vertices.push(new THREE.Vector3(39.913223,2.317045,1.544281));
+			geom.vertices.push(new THREE.Vector3(39.913227,-1.712027,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.058899,-2.230654,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.058899,1.798418,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.072121,-0.640839,3.598969));
+			geom.vertices.push(new THREE.Vector3(40.072121,2.051302,3.598969));
+			geom.vertices.push(new THREE.Vector3(40.338043,2.015730,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.338051,-1.410713,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.347454,-0.221956,3.661438));
+			geom.vertices.push(new THREE.Vector3(40.347458,1.632421,3.661438));
+			geom.vertices.push(new THREE.Vector3(40.426048,1.497103,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.426052,-1.929340,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.517010,0.232557,3.699921));
+			geom.vertices.push(new THREE.Vector3(40.517010,1.177910,3.699921));
+			geom.vertices.push(new THREE.Vector3(40.574265,0.705233,3.712921));
+			geom.vertices.push(new THREE.Vector3(40.686691,-1.043560,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.686691,1.648579,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.727364,1.129951,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.727367,-1.562187,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.945759,-0.624680,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.945759,1.229698,1.544281));
+			geom.vertices.push(new THREE.Vector3(40.951263,-1.143307,0.000000));
+			geom.vertices.push(new THREE.Vector3(40.951263,0.711071,0.000000));
+			geom.vertices.push(new THREE.Vector3(41.089138,-0.688793,0.000000));
+			geom.vertices.push(new THREE.Vector3(41.089138,0.256559,0.000000));
+			geom.vertices.push(new THREE.Vector3(41.105293,-0.170166,1.544281));
+			geom.vertices.push(new THREE.Vector3(41.105293,0.775187,1.544281));
+			geom.vertices.push(new THREE.Vector3(41.135689,-0.216118,0.000000));
+			geom.vertices.push(new THREE.Vector3(41.159157,0.302509,1.544281));
+			geom.vertices.push(new THREE.Vector3(42.655472,0.549999,0.000000));
+			geom.vertices.push(new THREE.Vector3(42.655472,0.549999,7.167297));
+			geom.vertices.push(new THREE.Vector3(42.890209,-3.728331,0.000000));
+			geom.vertices.push(new THREE.Vector3(42.890209,-3.728331,7.167297));
+		
+			geom.faces.push(new THREE.Face3(238,138,240));
+			geom.faces.push(new THREE.Face3(138,238,136));
+			geom.faces.push(new THREE.Face3(241,137,239));
+			geom.faces.push(new THREE.Face3(137,241,139));
+			geom.faces.push(new THREE.Face3(238,219,215));
+			geom.faces.push(new THREE.Face3(233,235,240));
+			geom.faces.push(new THREE.Face3(236,239,238));
+			geom.faces.push(new THREE.Face3(239,236,237));
+			geom.faces.push(new THREE.Face3(135,136,137));
+			geom.faces.push(new THREE.Face3(136,135,134));
+			geom.faces.push(new THREE.Face3(1,134,135));
+			geom.faces.push(new THREE.Face3(134,1,0));
+			geom.faces.push(new THREE.Face3(376,237,236));
+			geom.faces.push(new THREE.Face3(237,376,377));
+			geom.faces.push(new THREE.Face3(115,117,6));
+			geom.faces.push(new THREE.Face3(327,338,262));
+			geom.faces.push(new THREE.Face3(108,115,6));
+			geom.faces.push(new THREE.Face3(317,320,313));
+			geom.faces.push(new THREE.Face3(320,317,322));
+			geom.faces.push(new THREE.Face3(341,345,340));
+			geom.faces.push(new THREE.Face3(345,341,348));
+			geom.faces.push(new THREE.Face3(362,365,361));
+			geom.faces.push(new THREE.Face3(365,362,367));
+			geom.faces.push(new THREE.Face3(372,370,373));
+			geom.faces.push(new THREE.Face3(370,372,368));
+			geom.faces.push(new THREE.Face3(363,352,360));
+			geom.faces.push(new THREE.Face3(352,363,356));
+			geom.faces.push(new THREE.Face3(342,329,339));
+			geom.faces.push(new THREE.Face3(329,342,331));
+			geom.faces.push(new THREE.Face3(316,302,312));
+			geom.faces.push(new THREE.Face3(302,316,310));
+			geom.faces.push(new THREE.Face3(298,281,286));
+			geom.faces.push(new THREE.Face3(281,298,294));
+			geom.faces.push(new THREE.Face3(284,274,275));
+			geom.faces.push(new THREE.Face3(274,284,283));
+			geom.faces.push(new THREE.Face3(293,282,278));
+			geom.faces.push(new THREE.Face3(282,293,295));
+			geom.faces.push(new THREE.Face3(305,303,297));
+			geom.faces.push(new THREE.Face3(303,305,311));
+			geom.faces.push(new THREE.Face3(322,328,320));
+			geom.faces.push(new THREE.Face3(328,322,330));
+			geom.faces.push(new THREE.Face3(348,351,345));
+			geom.faces.push(new THREE.Face3(351,348,355));
+			geom.faces.push(new THREE.Face3(367,371,365));
+			geom.faces.push(new THREE.Face3(371,367,369));
+			geom.faces.push(new THREE.Face3(368,364,370));
+			geom.faces.push(new THREE.Face3(364,368,366));
+			geom.faces.push(new THREE.Face3(356,346,352));
+			geom.faces.push(new THREE.Face3(346,356,347));
+			geom.faces.push(new THREE.Face3(331,321,329));
+			geom.faces.push(new THREE.Face3(321,331,323));
+			geom.faces.push(new THREE.Face3(310,296,302));
+			geom.faces.push(new THREE.Face3(296,310,304));
+			geom.faces.push(new THREE.Face3(294,277,281));
+			geom.faces.push(new THREE.Face3(277,294,292));
+			geom.faces.push(new THREE.Face3(283,276,274));
+			geom.faces.push(new THREE.Face3(276,283,285));
+			geom.faces.push(new THREE.Face3(295,287,282));
+			geom.faces.push(new THREE.Face3(287,295,299));
+			geom.faces.push(new THREE.Face3(311,313,303));
+			geom.faces.push(new THREE.Face3(313,311,317));
+			geom.faces.push(new THREE.Face3(330,340,328));
+			geom.faces.push(new THREE.Face3(340,330,341));
+			geom.faces.push(new THREE.Face3(355,361,351));
+			geom.faces.push(new THREE.Face3(361,355,362));
+			geom.faces.push(new THREE.Face3(369,373,371));
+			geom.faces.push(new THREE.Face3(373,369,372));
+			geom.faces.push(new THREE.Face3(366,360,364));
+			geom.faces.push(new THREE.Face3(360,366,363));
+			geom.faces.push(new THREE.Face3(347,339,346));
+			geom.faces.push(new THREE.Face3(339,347,342));
+			geom.faces.push(new THREE.Face3(323,312,321));
+			geom.faces.push(new THREE.Face3(312,323,316));
+			geom.faces.push(new THREE.Face3(304,286,296));
+			geom.faces.push(new THREE.Face3(286,304,298));
+			geom.faces.push(new THREE.Face3(292,275,277));
+			geom.faces.push(new THREE.Face3(275,292,284));
+			geom.faces.push(new THREE.Face3(285,278,276));
+			geom.faces.push(new THREE.Face3(278,285,293));
+			geom.faces.push(new THREE.Face3(299,297,287));
+			geom.faces.push(new THREE.Face3(297,299,305));
+			geom.faces.push(new THREE.Face3(272,296,286));
+			geom.faces.push(new THREE.Face3(296,272,279));
+			geom.faces.push(new THREE.Face3(264,277,275));
+			geom.faces.push(new THREE.Face3(277,264,266));
+			geom.faces.push(new THREE.Face3(267,276,278));
+			geom.faces.push(new THREE.Face3(276,267,265));
+			geom.faces.push(new THREE.Face3(280,287,297));
+			geom.faces.push(new THREE.Face3(287,280,273));
+			geom.faces.push(new THREE.Face3(308,313,320));
+			geom.faces.push(new THREE.Face3(313,308,301));
+			geom.faces.push(new THREE.Face3(334,340,345));
+			geom.faces.push(new THREE.Face3(340,334,324));
+			geom.faces.push(new THREE.Face3(354,361,365));
+			geom.faces.push(new THREE.Face3(361,354,350));
+			geom.faces.push(new THREE.Face3(357,373,370));
+			geom.faces.push(new THREE.Face3(373,357,359));
+			geom.faces.push(new THREE.Face3(344,360,352));
+			geom.faces.push(new THREE.Face3(360,344,349));
+			geom.faces.push(new THREE.Face3(315,339,329));
+			geom.faces.push(new THREE.Face3(339,315,325));
+			geom.faces.push(new THREE.Face3(290,312,302));
+			geom.faces.push(new THREE.Face3(312,290,300));
+			geom.faces.push(new THREE.Face3(268,286,281));
+			geom.faces.push(new THREE.Face3(286,268,272));
+			geom.faces.push(new THREE.Face3(263,275,274));
+			geom.faces.push(new THREE.Face3(275,263,264));
+			geom.faces.push(new THREE.Face3(269,278,282));
+			geom.faces.push(new THREE.Face3(278,269,267));
+			geom.faces.push(new THREE.Face3(291,297,303));
+			geom.faces.push(new THREE.Face3(297,291,280));
+			geom.faces.push(new THREE.Face3(314,320,328));
+			geom.faces.push(new THREE.Face3(320,314,308));
+			geom.faces.push(new THREE.Face3(343,345,351));
+			geom.faces.push(new THREE.Face3(345,343,334));
+			geom.faces.push(new THREE.Face3(358,365,371));
+			geom.faces.push(new THREE.Face3(365,358,354));
+			geom.faces.push(new THREE.Face3(353,370,364));
+			geom.faces.push(new THREE.Face3(370,353,357));
+			geom.faces.push(new THREE.Face3(335,352,346));
+			geom.faces.push(new THREE.Face3(352,335,344));
+			geom.faces.push(new THREE.Face3(309,329,321));
+			geom.faces.push(new THREE.Face3(329,309,315));
+			geom.faces.push(new THREE.Face3(279,302,296));
+			geom.faces.push(new THREE.Face3(302,279,290));
+			geom.faces.push(new THREE.Face3(266,281,277));
+			geom.faces.push(new THREE.Face3(281,266,268));
+			geom.faces.push(new THREE.Face3(265,274,276));
+			geom.faces.push(new THREE.Face3(274,265,263));
+			geom.faces.push(new THREE.Face3(273,282,287));
+			geom.faces.push(new THREE.Face3(282,273,269));
+			geom.faces.push(new THREE.Face3(301,303,313));
+			geom.faces.push(new THREE.Face3(303,301,291));
+			geom.faces.push(new THREE.Face3(324,328,340));
+			geom.faces.push(new THREE.Face3(328,324,314));
+			geom.faces.push(new THREE.Face3(350,351,361));
+			geom.faces.push(new THREE.Face3(351,350,343));
+			geom.faces.push(new THREE.Face3(359,371,373));
+			geom.faces.push(new THREE.Face3(371,359,358));
+			geom.faces.push(new THREE.Face3(349,364,360));
+			geom.faces.push(new THREE.Face3(364,349,353));
+			geom.faces.push(new THREE.Face3(325,346,339));
+			geom.faces.push(new THREE.Face3(346,325,335));
+			geom.faces.push(new THREE.Face3(300,321,312));
+			geom.faces.push(new THREE.Face3(321,300,309));
+			geom.faces.push(new THREE.Face3(256,309,300));
+			geom.faces.push(new THREE.Face3(309,256,258));
+			geom.faces.push(new THREE.Face3(249,279,272));
+			geom.faces.push(new THREE.Face3(279,249,251));
+			geom.faces.push(new THREE.Face3(243,266,264));
+			geom.faces.push(new THREE.Face3(266,243,245));
+			geom.faces.push(new THREE.Face3(246,265,267));
+			geom.faces.push(new THREE.Face3(265,246,244));
+			geom.faces.push(new THREE.Face3(252,273,280));
+			geom.faces.push(new THREE.Face3(273,252,250));
+			geom.faces.push(new THREE.Face3(257,301,308));
+			geom.faces.push(new THREE.Face3(301,257,255));
+			geom.faces.push(new THREE.Face3(288,324,334));
+			geom.faces.push(new THREE.Face3(324,288,270));
+			geom.faces.push(new THREE.Face3(327,350,354));
+			geom.faces.push(new THREE.Face3(350,327,319));
+			geom.faces.push(new THREE.Face3(332,359,357));
+			geom.faces.push(new THREE.Face3(359,332,336));
+			geom.faces.push(new THREE.Face3(307,349,344));
+			geom.faces.push(new THREE.Face3(349,307,318));
+			geom.faces.push(new THREE.Face3(260,325,315));
+			geom.faces.push(new THREE.Face3(325,260,271));
+			geom.faces.push(new THREE.Face3(253,300,290));
+			geom.faces.push(new THREE.Face3(300,253,256));
+			geom.faces.push(new THREE.Face3(247,272,268));
+			geom.faces.push(new THREE.Face3(272,247,249));
+			geom.faces.push(new THREE.Face3(242,264,263));
+			geom.faces.push(new THREE.Face3(264,242,243));
+			geom.faces.push(new THREE.Face3(248,267,269));
+			geom.faces.push(new THREE.Face3(267,248,246));
+			geom.faces.push(new THREE.Face3(254,280,291));
+			geom.faces.push(new THREE.Face3(280,254,252));
+			geom.faces.push(new THREE.Face3(259,308,314));
+			geom.faces.push(new THREE.Face3(308,259,257));
+			geom.faces.push(new THREE.Face3(306,334,343));
+			geom.faces.push(new THREE.Face3(334,306,288));
+			geom.faces.push(new THREE.Face3(333,354,358));
+			geom.faces.push(new THREE.Face3(354,333,327));
+			geom.faces.push(new THREE.Face3(326,357,353));
+			geom.faces.push(new THREE.Face3(357,326,332));
+			geom.faces.push(new THREE.Face3(289,344,335));
+			geom.faces.push(new THREE.Face3(344,289,307));
+			geom.faces.push(new THREE.Face3(258,315,309));
+			geom.faces.push(new THREE.Face3(315,258,260));
+			geom.faces.push(new THREE.Face3(251,290,279));
+			geom.faces.push(new THREE.Face3(290,251,253));
+			geom.faces.push(new THREE.Face3(245,268,266));
+			geom.faces.push(new THREE.Face3(268,245,247));
+			geom.faces.push(new THREE.Face3(244,263,265));
+			geom.faces.push(new THREE.Face3(263,244,242));
+			geom.faces.push(new THREE.Face3(250,269,273));
+			geom.faces.push(new THREE.Face3(269,250,248));
+			geom.faces.push(new THREE.Face3(255,291,301));
+			geom.faces.push(new THREE.Face3(291,255,254));
+			geom.faces.push(new THREE.Face3(270,314,324));
+			geom.faces.push(new THREE.Face3(314,270,259));
+			geom.faces.push(new THREE.Face3(319,343,350));
+			geom.faces.push(new THREE.Face3(343,319,306));
+			geom.faces.push(new THREE.Face3(336,358,359));
+			geom.faces.push(new THREE.Face3(358,336,333));
+			geom.faces.push(new THREE.Face3(318,353,349));
+			geom.faces.push(new THREE.Face3(353,318,326));
+			geom.faces.push(new THREE.Face3(271,335,325));
+			geom.faces.push(new THREE.Face3(335,271,289));
+			geom.faces.push(new THREE.Face3(62,57,64));
+			geom.faces.push(new THREE.Face3(57,62,55));
+			geom.faces.push(new THREE.Face3(38,33,39));
+			geom.faces.push(new THREE.Face3(33,38,30));
+			geom.faces.push(new THREE.Face3(17,14,18));
+			geom.faces.push(new THREE.Face3(14,17,12));
+			geom.faces.push(new THREE.Face3(4,11,9));
+			geom.faces.push(new THREE.Face3(11,4,8));
+			geom.faces.push(new THREE.Face3(16,27,19));
+			geom.faces.push(new THREE.Face3(27,16,23));
+			geom.faces.push(new THREE.Face3(37,49,40));
+			geom.faces.push(new THREE.Face3(49,37,47));
+			geom.faces.push(new THREE.Face3(63,73,65));
+			geom.faces.push(new THREE.Face3(73,63,67));
+			geom.faces.push(new THREE.Face3(79,96,87));
+			geom.faces.push(new THREE.Face3(96,79,83));
+			geom.faces.push(new THREE.Face3(93,105,102));
+			geom.faces.push(new THREE.Face3(105,93,94));
+			geom.faces.push(new THREE.Face3(88,95,99));
+			geom.faces.push(new THREE.Face3(95,88,82));
+			geom.faces.push(new THREE.Face3(74,72,80));
+			geom.faces.push(new THREE.Face3(72,74,66));
+			geom.faces.push(new THREE.Face3(55,48,57));
+			geom.faces.push(new THREE.Face3(48,55,46));
+			geom.faces.push(new THREE.Face3(30,28,33));
+			geom.faces.push(new THREE.Face3(28,30,24));
+			geom.faces.push(new THREE.Face3(12,10,14));
+			geom.faces.push(new THREE.Face3(10,12,7));
+			geom.faces.push(new THREE.Face3(8,15,11));
+			geom.faces.push(new THREE.Face3(15,8,13));
+			geom.faces.push(new THREE.Face3(23,34,27));
+			geom.faces.push(new THREE.Face3(34,23,29));
+			geom.faces.push(new THREE.Face3(47,56,49));
+			geom.faces.push(new THREE.Face3(56,47,54));
+			geom.faces.push(new THREE.Face3(67,81,73));
+			geom.faces.push(new THREE.Face3(81,67,75));
+			geom.faces.push(new THREE.Face3(83,100,96));
+			geom.faces.push(new THREE.Face3(100,83,89));
+			geom.faces.push(new THREE.Face3(94,101,105));
+			geom.faces.push(new THREE.Face3(101,94,92));
+			geom.faces.push(new THREE.Face3(82,86,95));
+			geom.faces.push(new THREE.Face3(86,82,78));
+			geom.faces.push(new THREE.Face3(66,64,72));
+			geom.faces.push(new THREE.Face3(64,66,62));
+			geom.faces.push(new THREE.Face3(46,39,48));
+			geom.faces.push(new THREE.Face3(39,46,38));
+			geom.faces.push(new THREE.Face3(24,18,28));
+			geom.faces.push(new THREE.Face3(18,24,17));
+			geom.faces.push(new THREE.Face3(7,9,10));
+			geom.faces.push(new THREE.Face3(9,7,4));
+			geom.faces.push(new THREE.Face3(13,19,15));
+			geom.faces.push(new THREE.Face3(19,13,16));
+			geom.faces.push(new THREE.Face3(29,40,34));
+			geom.faces.push(new THREE.Face3(40,29,37));
+			geom.faces.push(new THREE.Face3(54,65,56));
+			geom.faces.push(new THREE.Face3(65,54,63));
+			geom.faces.push(new THREE.Face3(75,87,81));
+			geom.faces.push(new THREE.Face3(87,75,79));
+			geom.faces.push(new THREE.Face3(89,102,100));
+			geom.faces.push(new THREE.Face3(102,89,93));
+			geom.faces.push(new THREE.Face3(92,99,101));
+			geom.faces.push(new THREE.Face3(99,92,88));
+			geom.faces.push(new THREE.Face3(78,80,86));
+			geom.faces.push(new THREE.Face3(80,78,74));
+			geom.faces.push(new THREE.Face3(104,81,87));
+			geom.faces.push(new THREE.Face3(81,104,98));
+			geom.faces.push(new THREE.Face3(113,100,102));
+			geom.faces.push(new THREE.Face3(100,113,111));
+			geom.faces.push(new THREE.Face3(110,101,99));
+			geom.faces.push(new THREE.Face3(101,110,112));
+			geom.faces.push(new THREE.Face3(97,86,80));
+			geom.faces.push(new THREE.Face3(86,97,103));
+			geom.faces.push(new THREE.Face3(69,64,57));
+			geom.faces.push(new THREE.Face3(64,69,76));
+			geom.faces.push(new THREE.Face3(43,39,33));
+			geom.faces.push(new THREE.Face3(39,43,53));
+			geom.faces.push(new THREE.Face3(25,18,14));
+			geom.faces.push(new THREE.Face3(18,25,31));
+			geom.faces.push(new THREE.Face3(22,9,11));
+			geom.faces.push(new THREE.Face3(9,22,20));
+			geom.faces.push(new THREE.Face3(35,19,27));
+			geom.faces.push(new THREE.Face3(19,35,32));
+			geom.faces.push(new THREE.Face3(59,40,49));
+			geom.faces.push(new THREE.Face3(40,59,52));
+			geom.faces.push(new THREE.Face3(85,65,73));
+			geom.faces.push(new THREE.Face3(65,85,77));
+			geom.faces.push(new THREE.Face3(107,87,96));
+			geom.faces.push(new THREE.Face3(87,107,104));
+			geom.faces.push(new THREE.Face3(114,102,105));
+			geom.faces.push(new THREE.Face3(102,114,113));
+			geom.faces.push(new THREE.Face3(106,99,95));
+			geom.faces.push(new THREE.Face3(99,106,110));
+			geom.faces.push(new THREE.Face3(84,80,72));
+			geom.faces.push(new THREE.Face3(80,84,97));
+			geom.faces.push(new THREE.Face3(58,57,48));
+			geom.faces.push(new THREE.Face3(57,58,69));
+			geom.faces.push(new THREE.Face3(36,33,28));
+			geom.faces.push(new THREE.Face3(33,36,43));
+			geom.faces.push(new THREE.Face3(21,14,10));
+			geom.faces.push(new THREE.Face3(14,21,25));
+			geom.faces.push(new THREE.Face3(26,11,15));
+			geom.faces.push(new THREE.Face3(11,26,22));
+			geom.faces.push(new THREE.Face3(42,27,34));
+			geom.faces.push(new THREE.Face3(27,42,35));
+			geom.faces.push(new THREE.Face3(68,49,56));
+			geom.faces.push(new THREE.Face3(49,68,59));
+			geom.faces.push(new THREE.Face3(98,73,81));
+			geom.faces.push(new THREE.Face3(73,98,85));
+			geom.faces.push(new THREE.Face3(111,96,100));
+			geom.faces.push(new THREE.Face3(96,111,107));
+			geom.faces.push(new THREE.Face3(112,105,101));
+			geom.faces.push(new THREE.Face3(105,112,114));
+			geom.faces.push(new THREE.Face3(103,95,86));
+			geom.faces.push(new THREE.Face3(95,103,106));
+			geom.faces.push(new THREE.Face3(76,72,64));
+			geom.faces.push(new THREE.Face3(72,76,84));
+			geom.faces.push(new THREE.Face3(53,48,39));
+			geom.faces.push(new THREE.Face3(48,53,58));
+			geom.faces.push(new THREE.Face3(31,28,18));
+			geom.faces.push(new THREE.Face3(28,31,36));
+			geom.faces.push(new THREE.Face3(20,10,9));
+			geom.faces.push(new THREE.Face3(10,20,21));
+			geom.faces.push(new THREE.Face3(32,15,19));
+			geom.faces.push(new THREE.Face3(15,32,26));
+			geom.faces.push(new THREE.Face3(52,34,40));
+			geom.faces.push(new THREE.Face3(34,52,42));
+			geom.faces.push(new THREE.Face3(77,56,65));
+			geom.faces.push(new THREE.Face3(56,77,68));
+			geom.faces.push(new THREE.Face3(119,68,77));
+			geom.faces.push(new THREE.Face3(68,119,117));
+			geom.faces.push(new THREE.Face3(126,98,104));
+			geom.faces.push(new THREE.Face3(98,126,124));
+			geom.faces.push(new THREE.Face3(132,111,113));
+			geom.faces.push(new THREE.Face3(111,132,130));
+			geom.faces.push(new THREE.Face3(129,112,110));
+			geom.faces.push(new THREE.Face3(112,129,131));
+			geom.faces.push(new THREE.Face3(123,103,97));
+			geom.faces.push(new THREE.Face3(103,123,125));
+			geom.faces.push(new THREE.Face3(118,76,69));
+			geom.faces.push(new THREE.Face3(76,118,120));
+			geom.faces.push(new THREE.Face3(91,53,43));
+			geom.faces.push(new THREE.Face3(53,91,109));
+			geom.faces.push(new THREE.Face3(50,31,25));
+			geom.faces.push(new THREE.Face3(31,50,60));
+			geom.faces.push(new THREE.Face3(45,20,22));
+			geom.faces.push(new THREE.Face3(20,45,41));
+			geom.faces.push(new THREE.Face3(70,32,35));
+			geom.faces.push(new THREE.Face3(32,70,61));
+			geom.faces.push(new THREE.Face3(115,52,59));
+			geom.faces.push(new THREE.Face3(52,115,108));
+			geom.faces.push(new THREE.Face3(122,77,85));
+			geom.faces.push(new THREE.Face3(77,122,119));
+			geom.faces.push(new THREE.Face3(128,104,107));
+			geom.faces.push(new THREE.Face3(104,128,126));
+			geom.faces.push(new THREE.Face3(133,113,114));
+			geom.faces.push(new THREE.Face3(113,133,132));
+			geom.faces.push(new THREE.Face3(127,110,106));
+			geom.faces.push(new THREE.Face3(110,127,129));
+			geom.faces.push(new THREE.Face3(121,97,84));
+			geom.faces.push(new THREE.Face3(97,121,123));
+			geom.faces.push(new THREE.Face3(116,69,58));
+			geom.faces.push(new THREE.Face3(69,116,118));
+			geom.faces.push(new THREE.Face3(71,43,36));
+			geom.faces.push(new THREE.Face3(43,71,91));
+			geom.faces.push(new THREE.Face3(44,25,21));
+			geom.faces.push(new THREE.Face3(25,44,50));
+			geom.faces.push(new THREE.Face3(51,22,26));
+			geom.faces.push(new THREE.Face3(22,51,45));
+			geom.faces.push(new THREE.Face3(90,35,42));
+			geom.faces.push(new THREE.Face3(35,90,70));
+			geom.faces.push(new THREE.Face3(117,59,68));
+			geom.faces.push(new THREE.Face3(59,117,115));
+			geom.faces.push(new THREE.Face3(124,85,98));
+			geom.faces.push(new THREE.Face3(85,124,122));
+			geom.faces.push(new THREE.Face3(130,107,111));
+			geom.faces.push(new THREE.Face3(107,130,128));
+			geom.faces.push(new THREE.Face3(131,114,112));
+			geom.faces.push(new THREE.Face3(114,131,133));
+			geom.faces.push(new THREE.Face3(125,106,103));
+			geom.faces.push(new THREE.Face3(106,125,127));
+			geom.faces.push(new THREE.Face3(120,84,76));
+			geom.faces.push(new THREE.Face3(84,120,121));
+			geom.faces.push(new THREE.Face3(109,58,53));
+			geom.faces.push(new THREE.Face3(58,109,116));
+			geom.faces.push(new THREE.Face3(60,36,31));
+			geom.faces.push(new THREE.Face3(36,60,71));
+			geom.faces.push(new THREE.Face3(41,21,20));
+			geom.faces.push(new THREE.Face3(21,41,44));
+			geom.faces.push(new THREE.Face3(61,26,32));
+			geom.faces.push(new THREE.Face3(26,61,51));
+			geom.faces.push(new THREE.Face3(108,42,52));
+			geom.faces.push(new THREE.Face3(42,108,90));
+			geom.faces.push(new THREE.Face3(258,256,377));
+			geom.faces.push(new THREE.Face3(319,327,262));
+			geom.faces.push(new THREE.Face3(306,319,262));
+			geom.faces.push(new THREE.Face3(288,306,262));
+			geom.faces.push(new THREE.Face3(270,288,262));
+			geom.faces.push(new THREE.Face3(259,270,262));
+			geom.faces.push(new THREE.Face3(375,338,377));
+			geom.faces.push(new THREE.Face3(336,377,338));
+			geom.faces.push(new THREE.Face3(254,255,262));
+			geom.faces.push(new THREE.Face3(372,369,374));
+			geom.faces.push(new THREE.Face3(239,242,241));
+			geom.faces.push(new THREE.Face3(241,252,254));
+			geom.faces.push(new THREE.Face3(261,311,240));
+			geom.faces.push(new THREE.Face3(374,369,367));
+			geom.faces.push(new THREE.Face3(374,367,337));
+			geom.faces.push(new THREE.Face3(248,250,241));
+			geom.faces.push(new THREE.Face3(246,248,241));
+			geom.faces.push(new THREE.Face3(244,246,241));
+			geom.faces.push(new THREE.Face3(252,241,250));
+			geom.faces.push(new THREE.Face3(242,244,241));
+			geom.faces.push(new THREE.Face3(336,332,377));
+			geom.faces.push(new THREE.Face3(242,239,243));
+			geom.faces.push(new THREE.Face3(332,326,377));
+			geom.faces.push(new THREE.Face3(243,239,237));
+			geom.faces.push(new THREE.Face3(326,318,377));
+			geom.faces.push(new THREE.Face3(367,362,337));
+			geom.faces.push(new THREE.Face3(318,307,377));
+			geom.faces.push(new THREE.Face3(245,243,237));
+			geom.faces.push(new THREE.Face3(307,289,377));
+			geom.faces.push(new THREE.Face3(247,245,237));
+			geom.faces.push(new THREE.Face3(289,271,377));
+			geom.faces.push(new THREE.Face3(249,247,237));
+			geom.faces.push(new THREE.Face3(251,249,237));
+			geom.faces.push(new THREE.Face3(271,260,377));
+			geom.faces.push(new THREE.Face3(256,253,237));
+			geom.faces.push(new THREE.Face3(260,258,377));
+			geom.faces.push(new THREE.Face3(253,251,237));
+			geom.faces.push(new THREE.Face3(237,377,256));
+			geom.faces.push(new THREE.Face3(362,355,337));
+			geom.faces.push(new THREE.Face3(355,348,337));
+			geom.faces.push(new THREE.Face3(261,337,348));
+			geom.faces.push(new THREE.Face3(257,259,262));
+			geom.faces.push(new THREE.Face3(261,348,341));
+			geom.faces.push(new THREE.Face3(261,341,330));
+			geom.faces.push(new THREE.Face3(261,322,317));
+			geom.faces.push(new THREE.Face3(261,317,311));
+			geom.faces.push(new THREE.Face3(261,330,322));
+			geom.faces.push(new THREE.Face3(240,283,238));
+			geom.faces.push(new THREE.Face3(262,240,241));
+			geom.faces.push(new THREE.Face3(240,262,261));
+			geom.faces.push(new THREE.Face3(376,316,323));
+			geom.faces.push(new THREE.Face3(240,311,305));
+			geom.faces.push(new THREE.Face3(240,305,299));
+			geom.faces.push(new THREE.Face3(240,299,295));
+			geom.faces.push(new THREE.Face3(240,295,293));
+			geom.faces.push(new THREE.Face3(240,293,285));
+			geom.faces.push(new THREE.Face3(236,304,310));
+			geom.faces.push(new THREE.Face3(240,285,283));
+			geom.faces.push(new THREE.Face3(376,368,372));
+			geom.faces.push(new THREE.Face3(284,238,283));
+			geom.faces.push(new THREE.Face3(376,366,368));
+			geom.faces.push(new THREE.Face3(292,238,284));
+			geom.faces.push(new THREE.Face3(376,363,366));
+			geom.faces.push(new THREE.Face3(236,238,292));
+			geom.faces.push(new THREE.Face3(376,356,363));
+			geom.faces.push(new THREE.Face3(90,108,6));
+			geom.faces.push(new THREE.Face3(376,347,356));
+			geom.faces.push(new THREE.Face3(236,292,294));
+			geom.faces.push(new THREE.Face3(376,342,347));
+			geom.faces.push(new THREE.Face3(236,294,298));
+			geom.faces.push(new THREE.Face3(236,298,304));
+			geom.faces.push(new THREE.Face3(376,331,342));
+			geom.faces.push(new THREE.Face3(376,375,377));
+			geom.faces.push(new THREE.Face3(375,376,374));
+			geom.faces.push(new THREE.Face3(376,323,331));
+			geom.faces.push(new THREE.Face3(376,236,316));
+			geom.faces.push(new THREE.Face3(316,236,310));
+			geom.faces.push(new THREE.Face3(374,338,375));
+			geom.faces.push(new THREE.Face3(338,374,337));
+			geom.faces.push(new THREE.Face3(70,90,6));
+			geom.faces.push(new THREE.Face3(61,70,6));
+			geom.faces.push(new THREE.Face3(51,61,6));
+			geom.faces.push(new THREE.Face3(3,45,51));
+			geom.faces.push(new THREE.Face3(3,1,41));
+			geom.faces.push(new THREE.Face3(3,51,6));
+			geom.faces.push(new THREE.Face3(8,2,13));
+			geom.faces.push(new THREE.Face3(2,8,4));
+			geom.faces.push(new THREE.Face3(5,138,67));
+			geom.faces.push(new THREE.Face3(119,122,6));
+			geom.faces.push(new THREE.Face3(139,122,124));
+			geom.faces.push(new THREE.Face3(139,124,126));
+			geom.faces.push(new THREE.Face3(139,126,128));
+			geom.faces.push(new THREE.Face3(128,130,139));
+			geom.faces.push(new THREE.Face3(132,133,139));
+			geom.faces.push(new THREE.Face3(5,63,54));
+			geom.faces.push(new THREE.Face3(133,137,139));
+			geom.faces.push(new THREE.Face3(130,132,139));
+			geom.faces.push(new THREE.Face3(137,133,131));
+			geom.faces.push(new THREE.Face3(41,1,44));
+			geom.faces.push(new THREE.Face3(131,129,135));
+			geom.faces.push(new THREE.Face3(44,1,50));
+			geom.faces.push(new THREE.Face3(129,127,135));
+			geom.faces.push(new THREE.Face3(50,1,60));
+			geom.faces.push(new THREE.Face3(127,125,135));
+			geom.faces.push(new THREE.Face3(60,1,71));
+			geom.faces.push(new THREE.Face3(125,123,135));
+			geom.faces.push(new THREE.Face3(71,1,91));
+			geom.faces.push(new THREE.Face3(123,121,135));
+			geom.faces.push(new THREE.Face3(91,1,109));
+			geom.faces.push(new THREE.Face3(121,120,135));
+			geom.faces.push(new THREE.Face3(109,1,116));
+			geom.faces.push(new THREE.Face3(116,1,118));
+			geom.faces.push(new THREE.Face3(120,118,1));
+			geom.faces.push(new THREE.Face3(1,135,120));
+			geom.faces.push(new THREE.Face3(137,131,135));
+			geom.faces.push(new THREE.Face3(5,54,47));
+			geom.faces.push(new THREE.Face3(5,47,37));
+			geom.faces.push(new THREE.Face3(5,37,29));
+			geom.faces.push(new THREE.Face3(29,23,2));
+			geom.faces.push(new THREE.Face3(23,16,2));
+			geom.faces.push(new THREE.Face3(16,13,2));
+			geom.faces.push(new THREE.Face3(5,67,63));
+			geom.faces.push(new THREE.Face3(2,4,0));
+			geom.faces.push(new THREE.Face3(138,79,75));
+			geom.faces.push(new THREE.Face3(134,88,136));
+			geom.faces.push(new THREE.Face3(138,75,67));
+			geom.faces.push(new THREE.Face3(138,83,79));
+			geom.faces.push(new THREE.Face3(138,89,83));
+			geom.faces.push(new THREE.Face3(138,93,89));
+			geom.faces.push(new THREE.Face3(138,94,93));
+			geom.faces.push(new THREE.Face3(5,29,2));
+			geom.faces.push(new THREE.Face3(139,138,6));
+			geom.faces.push(new THREE.Face3(5,6,138));
+			geom.faces.push(new THREE.Face3(138,136,94));
+			geom.faces.push(new THREE.Face3(1,2,0));
+			geom.faces.push(new THREE.Face3(2,1,3));
+			geom.faces.push(new THREE.Face3(136,92,94));
+			geom.faces.push(new THREE.Face3(7,0,4));
+			geom.faces.push(new THREE.Face3(136,88,92));
+			geom.faces.push(new THREE.Face3(12,0,7));
+			geom.faces.push(new THREE.Face3(134,82,88));
+			geom.faces.push(new THREE.Face3(17,0,12));
+			geom.faces.push(new THREE.Face3(134,78,82));
+			geom.faces.push(new THREE.Face3(24,0,17));
+			geom.faces.push(new THREE.Face3(134,74,78));
+			geom.faces.push(new THREE.Face3(30,0,24));
+			geom.faces.push(new THREE.Face3(134,66,74));
+			geom.faces.push(new THREE.Face3(38,0,30));
+			geom.faces.push(new THREE.Face3(46,0,38));
+			geom.faces.push(new THREE.Face3(55,0,46));
+			geom.faces.push(new THREE.Face3(0,55,62));
+			geom.faces.push(new THREE.Face3(66,134,0));
+			geom.faces.push(new THREE.Face3(66,0,62));
+			geom.faces.push(new THREE.Face3(6,2,3));
+			geom.faces.push(new THREE.Face3(2,6,5));
+			geom.faces.push(new THREE.Face3(117,119,6));
+			geom.faces.push(new THREE.Face3(338,327,333));
+			geom.faces.push(new THREE.Face3(122,139,6));
+			geom.faces.push(new THREE.Face3(45,3,41));
+			geom.faces.push(new THREE.Face3(338,333,336));
+			geom.faces.push(new THREE.Face3(255,257,262));
+			geom.faces.push(new THREE.Face3(241,254,262));
+			geom.faces.push(new THREE.Face3(200,196,210));
+			geom.faces.push(new THREE.Face3(196,200,194));
+			geom.faces.push(new THREE.Face3(184,166,180));
+			geom.faces.push(new THREE.Face3(166,184,178));
+			geom.faces.push(new THREE.Face3(170,146,148));
+			geom.faces.push(new THREE.Face3(146,170,164));
+			geom.faces.push(new THREE.Face3(156,140,142));
+			geom.faces.push(new THREE.Face3(140,156,152));
+			geom.faces.push(new THREE.Face3(159,145,143));
+			geom.faces.push(new THREE.Face3(145,159,163));
+			geom.faces.push(new THREE.Face3(173,165,149));
+			geom.faces.push(new THREE.Face3(165,173,176));
+			geom.faces.push(new THREE.Face3(187,195,189));
+			geom.faces.push(new THREE.Face3(195,187,192));
+			geom.faces.push(new THREE.Face3(202,227,225));
+			geom.faces.push(new THREE.Face3(227,202,206));
+			geom.faces.push(new THREE.Face3(216,233,231));
+			geom.faces.push(new THREE.Face3(233,216,221));
+			geom.faces.push(new THREE.Face3(222,232,234));
+			geom.faces.push(new THREE.Face3(232,222,218));
+			geom.faces.push(new THREE.Face3(208,226,228));
+			geom.faces.push(new THREE.Face3(226,208,204));
+			geom.faces.push(new THREE.Face3(194,190,196));
+			geom.faces.push(new THREE.Face3(190,194,188));
+			geom.faces.push(new THREE.Face3(178,150,166));
+			geom.faces.push(new THREE.Face3(150,178,174));
+			geom.faces.push(new THREE.Face3(164,144,146));
+			geom.faces.push(new THREE.Face3(144,164,160));
+			geom.faces.push(new THREE.Face3(152,141,140));
+			geom.faces.push(new THREE.Face3(141,152,155));
+			geom.faces.push(new THREE.Face3(163,147,145));
+			geom.faces.push(new THREE.Face3(147,163,169));
+			geom.faces.push(new THREE.Face3(176,179,165));
+			geom.faces.push(new THREE.Face3(179,176,183));
+			geom.faces.push(new THREE.Face3(192,209,195));
+			geom.faces.push(new THREE.Face3(209,192,198));
+			geom.faces.push(new THREE.Face3(206,229,227));
+			geom.faces.push(new THREE.Face3(229,206,212));
+			geom.faces.push(new THREE.Face3(221,235,233));
+			geom.faces.push(new THREE.Face3(235,221,224));
+			geom.faces.push(new THREE.Face3(218,230,232));
+			geom.faces.push(new THREE.Face3(230,218,214));
+			geom.faces.push(new THREE.Face3(204,210,226));
+			geom.faces.push(new THREE.Face3(210,204,200));
+			geom.faces.push(new THREE.Face3(188,180,190));
+			geom.faces.push(new THREE.Face3(180,188,184));
+			geom.faces.push(new THREE.Face3(174,148,150));
+			geom.faces.push(new THREE.Face3(148,174,170));
+			geom.faces.push(new THREE.Face3(160,142,144));
+			geom.faces.push(new THREE.Face3(142,160,156));
+			geom.faces.push(new THREE.Face3(155,143,141));
+			geom.faces.push(new THREE.Face3(143,155,159));
+			geom.faces.push(new THREE.Face3(169,149,147));
+			geom.faces.push(new THREE.Face3(149,169,173));
+			geom.faces.push(new THREE.Face3(183,189,179));
+			geom.faces.push(new THREE.Face3(189,183,187));
+			geom.faces.push(new THREE.Face3(198,225,209));
+			geom.faces.push(new THREE.Face3(225,198,202));
+			geom.faces.push(new THREE.Face3(212,231,229));
+			geom.faces.push(new THREE.Face3(231,212,216));
+			geom.faces.push(new THREE.Face3(224,234,235));
+			geom.faces.push(new THREE.Face3(234,224,222));
+			geom.faces.push(new THREE.Face3(214,228,230));
+			geom.faces.push(new THREE.Face3(228,214,208));
+			geom.faces.push(new THREE.Face3(213,208,214));
+			geom.faces.push(new THREE.Face3(208,213,207));
+			geom.faces.push(new THREE.Face3(199,194,200));
+			geom.faces.push(new THREE.Face3(194,199,193));
+			geom.faces.push(new THREE.Face3(182,178,184));
+			geom.faces.push(new THREE.Face3(178,182,177));
+			geom.faces.push(new THREE.Face3(168,164,170));
+			geom.faces.push(new THREE.Face3(164,168,162));
+			geom.faces.push(new THREE.Face3(154,152,156));
+			geom.faces.push(new THREE.Face3(152,154,151));
+			geom.faces.push(new THREE.Face3(157,163,159));
+			geom.faces.push(new THREE.Face3(163,157,161));
+			geom.faces.push(new THREE.Face3(171,176,173));
+			geom.faces.push(new THREE.Face3(176,171,175));
+			geom.faces.push(new THREE.Face3(185,192,187));
+			geom.faces.push(new THREE.Face3(192,185,191));
+			geom.faces.push(new THREE.Face3(201,206,202));
+			geom.faces.push(new THREE.Face3(206,201,205));
+			geom.faces.push(new THREE.Face3(215,221,216));
+			geom.faces.push(new THREE.Face3(221,215,219));
+			geom.faces.push(new THREE.Face3(220,218,222));
+			geom.faces.push(new THREE.Face3(218,220,217));
+			geom.faces.push(new THREE.Face3(207,204,208));
+			geom.faces.push(new THREE.Face3(204,207,203));
+			geom.faces.push(new THREE.Face3(193,188,194));
+			geom.faces.push(new THREE.Face3(188,193,186));
+			geom.faces.push(new THREE.Face3(177,174,178));
+			geom.faces.push(new THREE.Face3(174,177,172));
+			geom.faces.push(new THREE.Face3(162,160,164));
+			geom.faces.push(new THREE.Face3(160,162,158));
+			geom.faces.push(new THREE.Face3(151,155,152));
+			geom.faces.push(new THREE.Face3(155,151,153));
+			geom.faces.push(new THREE.Face3(161,169,163));
+			geom.faces.push(new THREE.Face3(169,161,167));
+			geom.faces.push(new THREE.Face3(175,183,176));
+			geom.faces.push(new THREE.Face3(183,175,181));
+			geom.faces.push(new THREE.Face3(191,198,192));
+			geom.faces.push(new THREE.Face3(198,191,197));
+			geom.faces.push(new THREE.Face3(205,212,206));
+			geom.faces.push(new THREE.Face3(212,205,211));
+			geom.faces.push(new THREE.Face3(219,224,221));
+			geom.faces.push(new THREE.Face3(224,219,223));
+			geom.faces.push(new THREE.Face3(217,214,218));
+			geom.faces.push(new THREE.Face3(214,217,213));
+			geom.faces.push(new THREE.Face3(203,200,204));
+			geom.faces.push(new THREE.Face3(200,203,199));
+			geom.faces.push(new THREE.Face3(186,184,188));
+			geom.faces.push(new THREE.Face3(184,186,182));
+			geom.faces.push(new THREE.Face3(172,170,174));
+			geom.faces.push(new THREE.Face3(170,172,168));
+			geom.faces.push(new THREE.Face3(158,156,160));
+			geom.faces.push(new THREE.Face3(156,158,154));
+			geom.faces.push(new THREE.Face3(153,159,155));
+			geom.faces.push(new THREE.Face3(159,153,157));
+			geom.faces.push(new THREE.Face3(167,173,169));
+			geom.faces.push(new THREE.Face3(173,167,171));
+			geom.faces.push(new THREE.Face3(181,187,183));
+			geom.faces.push(new THREE.Face3(187,181,185));
+			geom.faces.push(new THREE.Face3(197,202,198));
+			geom.faces.push(new THREE.Face3(202,197,201));
+			geom.faces.push(new THREE.Face3(211,216,212));
+			geom.faces.push(new THREE.Face3(216,211,215));
+			geom.faces.push(new THREE.Face3(223,222,224));
+			geom.faces.push(new THREE.Face3(222,223,220));
+			geom.faces.push(new THREE.Face3(138,145,147));
+			geom.faces.push(new THREE.Face3(138,147,149));
+			geom.faces.push(new THREE.Face3(138,149,165));
+			geom.faces.push(new THREE.Face3(138,165,179));
+			geom.faces.push(new THREE.Face3(138,179,189));
+			geom.faces.push(new THREE.Face3(138,189,240));
+			geom.faces.push(new THREE.Face3(240,189,195));
+			geom.faces.push(new THREE.Face3(240,195,209));
+			geom.faces.push(new THREE.Face3(240,209,225));
+			geom.faces.push(new THREE.Face3(240,225,227));
+			geom.faces.push(new THREE.Face3(240,227,229));
+			geom.faces.push(new THREE.Face3(229,231,240));
+			geom.faces.push(new THREE.Face3(171,167,136));
+			geom.faces.push(new THREE.Face3(231,233,240));
+			geom.faces.push(new THREE.Face3(139,140,138));
+			geom.faces.push(new THREE.Face3(141,143,138));
+			geom.faces.push(new THREE.Face3(235,241,240));
+			geom.faces.push(new THREE.Face3(140,141,138));
+			geom.faces.push(new THREE.Face3(235,234,241));
+			geom.faces.push(new THREE.Face3(140,139,142));
+			geom.faces.push(new THREE.Face3(234,232,241));
+			geom.faces.push(new THREE.Face3(142,139,144));
+			geom.faces.push(new THREE.Face3(232,230,241));
+			geom.faces.push(new THREE.Face3(144,139,146));
+			geom.faces.push(new THREE.Face3(230,228,241));
+			geom.faces.push(new THREE.Face3(146,139,148));
+			geom.faces.push(new THREE.Face3(228,226,241));
+			geom.faces.push(new THREE.Face3(148,139,150));
+			geom.faces.push(new THREE.Face3(226,210,241));
+			geom.faces.push(new THREE.Face3(150,139,166));
+			geom.faces.push(new THREE.Face3(210,196,241));
+			geom.faces.push(new THREE.Face3(166,139,180));
+			geom.faces.push(new THREE.Face3(196,190,241));
+			geom.faces.push(new THREE.Face3(180,139,190));
+			geom.faces.push(new THREE.Face3(190,139,241));
+			geom.faces.push(new THREE.Face3(145,138,143));
+			geom.faces.push(new THREE.Face3(175,171,136));
+			geom.faces.push(new THREE.Face3(181,175,136));
+			geom.faces.push(new THREE.Face3(185,181,136));
+			geom.faces.push(new THREE.Face3(238,185,136));
+			geom.faces.push(new THREE.Face3(191,185,238));
+			geom.faces.push(new THREE.Face3(197,191,238));
+			geom.faces.push(new THREE.Face3(201,197,238));
+			geom.faces.push(new THREE.Face3(205,201,238));
+			geom.faces.push(new THREE.Face3(211,205,238));
+			geom.faces.push(new THREE.Face3(238,215,211));
+			geom.faces.push(new THREE.Face3(238,223,219));
+			geom.faces.push(new THREE.Face3(136,161,157));
+			geom.faces.push(new THREE.Face3(136,151,137));
+			geom.faces.push(new THREE.Face3(136,157,153));
+			geom.faces.push(new THREE.Face3(238,239,223));
+			geom.faces.push(new THREE.Face3(136,153,151));
+			geom.faces.push(new THREE.Face3(239,220,223));
+			geom.faces.push(new THREE.Face3(154,137,151));
+			geom.faces.push(new THREE.Face3(239,217,220));
+			geom.faces.push(new THREE.Face3(158,137,154));
+			geom.faces.push(new THREE.Face3(239,213,217));
+			geom.faces.push(new THREE.Face3(162,137,158));
+			geom.faces.push(new THREE.Face3(239,207,213));
+			geom.faces.push(new THREE.Face3(168,137,162));
+			geom.faces.push(new THREE.Face3(239,203,207));
+			geom.faces.push(new THREE.Face3(172,137,168));
+			geom.faces.push(new THREE.Face3(239,199,203));
+			geom.faces.push(new THREE.Face3(177,137,172));
+			geom.faces.push(new THREE.Face3(239,193,199));
+			geom.faces.push(new THREE.Face3(182,137,177));
+			geom.faces.push(new THREE.Face3(239,186,193));
+			geom.faces.push(new THREE.Face3(186,137,182));
+			geom.faces.push(new THREE.Face3(239,137,186));
+			geom.faces.push(new THREE.Face3(161,136,167));
+			geom.faces.push(new THREE.Face3(261,338,337));
+			geom.faces.push(new THREE.Face3(338,261,262));
+			geom.faces.push(new THREE.Face3(372,374,376));
+		geom.computeFaceNormals();
+
+			geom.computeFaceNormals();
+			geom.rotateX(-Math.PI / 2);
+		}
+	</script>
+</body>
+
+</html>
